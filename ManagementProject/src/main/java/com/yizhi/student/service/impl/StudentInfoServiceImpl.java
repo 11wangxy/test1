@@ -41,9 +41,7 @@ public class StudentInfoServiceImpl implements StudentInfoService {
 	}
 	
 	@Override
-	public int save(StudentInfoDO studentInfo){
-		return studentInfoDao.save(studentInfo);
-	}
+	public int save(StudentInfoDO studentInfo){return studentInfoDao.save(studentInfo);}
 	
 	@Override
 	public int update(StudentInfoDO studentInfo){
